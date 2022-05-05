@@ -15,4 +15,8 @@
 
     // your code here
 
+    const time = new Date();
+    if(time.getMinutes() <1050) {
+        document.getElementById("target").innerHTML ="Hello"
+    }
 })();
