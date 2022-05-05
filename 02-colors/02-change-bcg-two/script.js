@@ -12,5 +12,17 @@
 (function() {
 
     // your code here
+    //document.get.onclick = function() document.body.style.backgroundColor = (colorform)
+
+    const click = document.getElementById("run");
+    console.log(click)
+    click.addEventListener("click", changebackgroundcolor)
+    function changebackgroundcolor() {
+        const colorform = document.getElementById('color');
+        console.log(colorform);
+        const colorformcontent =colorform.value;
+        console.log(colorformcontent);
+        document.body.style.backgroundColor = colorformcontent;
+    }
 
 })();
