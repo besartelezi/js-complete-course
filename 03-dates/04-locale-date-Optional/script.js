@@ -15,4 +15,6 @@
 
     // your code here
 
+    const date = new Date(5);
+    document.getElementById("target").innerHTML = date;
 })();
