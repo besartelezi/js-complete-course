@@ -9,8 +9,16 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function () {
 
     // your code here
-
+    const click = document.getElementById("run");
+    console.log(click)
+    click.addEventListener("click", showage)
+    function showage() {
+        const usery = document.getElementById("dob-year").value;
+        const thisy = new Date().getFullYear()
+        const agey = thisy - usery;
+        document.write("You are " +agey+ " Years old.");
+    }
 })();
