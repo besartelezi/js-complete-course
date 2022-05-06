@@ -17,8 +17,10 @@ http://jsfiddle.net/FV4jW/9/ <br />
 Here you can see the way to use the switch with buttons. <br />
 I added the variables that would contain the input from the user **above** of the switch and not inside of it, because I did not want to repeat the variables constantly, and also because all buttons will use the same two fields for their input.
 ###### p.s., I have yet to figure out how to show the result of the calculator on the screen in a way that is neither document.write nor window.alert, I will keep you updated if I find something way more practical ######
-###  ###
-
+### 03-FizzBuzz ###
+I unfortunately found the answer to this code almost immediately. I glossed over it, and I started to understand the logic behind it. <BR />
+But I think the name of this assignment should be changed to something else, just so that people won't find the answer immediately on the internet.<br />
+After doing the fizzbuzz assignment, I did learn a lot about loops and how handy the **% sign** is.
 
 ## Arrays ##
 ## Dom ##
