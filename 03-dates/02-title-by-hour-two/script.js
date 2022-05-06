@@ -19,4 +19,7 @@
     if(time.getMinutes() <1050) {
         document.getElementById("target").innerHTML ="Hello"
     }
+    else {
+        document.getElementById("target").innerHTML ="Good evening"
+    }
 })();
