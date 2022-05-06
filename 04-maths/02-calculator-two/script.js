@@ -19,6 +19,18 @@
     Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
         $btn.addEventListener("click", function() {
             performOperation($btn.id);
+            const x = parseInt(document.getElementById("op-one").value);
+            const y = parseInt(document.getElementById("op-two").value);
+            switch ($btn.id) {
+                case "addition": const add = x + y;
+                window.alert(add); break;
+                case "substraction": const subs = x - y;
+                window.alert(subs); break;
+                case "multiplication": const multi = x * y;
+                window.alert(multi); break;
+                case "division": const div = x / y;
+                window.alert(div); break;
+            }
         });
     });
 })();
