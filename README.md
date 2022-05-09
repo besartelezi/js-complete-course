@@ -38,7 +38,12 @@ This link helped me understand loops a bit better: https://www.dofactory.com/jav
 ### 04-walk-two ###
 Using the ForEach method was a bit complicated, but this link explained it pretty good: https://www.programiz.com/javascript/forEach <br />
 I was adding the "fruits" variable name in between the brackets in both the console log and the second function I used. This resulted in the elements of the array not properly showing up in my console log. <br />
-I fixed this by using a seperate variable name in the variable log and the second function. 
+I fixed this by using a separate variable name in the variable log and the second function. 
 ### 05-walk-three ###
+Finishing this assignment using the ForEach method is what makes this so difficult, I had already figured out that I can use the filter method to just filter out the output to the console log so only the first and last names show up. <br />
+This however, is not the desired result. After some research (googling stuff with tears in my eyes), I was able to figure out the correct terminology and pinpoint my exact problems a bit better. <br />
+The goal of this exercise is to teach us what an array oj objects is, you can find a good explanation on this here: https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/ <br />
+Thanks to that, I was able to more specifically find the answer I was looking for, how to show only the first and last names of the people in the array on the console log. <br />
+A link that helped me out how the write the code was this one: https://stackoverflow.com/questions/19529403/how-can-i-loop-through-a-javascript-object-array <br />
 ## Dom ##
 

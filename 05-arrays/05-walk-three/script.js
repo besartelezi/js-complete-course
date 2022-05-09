@@ -40,5 +40,8 @@
     ];
 
     // your code here
-
+    document.getElementById("run").onclick = function (){
+        people.forEach((name) => {
+            console.log(name.firstname, name.lastname);
+        })}
 })();
