@@ -27,5 +27,11 @@
     ];
 
     // your code here
+    document.getElementById("run").onclick = function () {
+    if (fruits === "apple"){
+        console.log("there is an apple in the array);
+
+    } else { console.log("there are no apples in the array")
+    }}
 
 })();
