@@ -23,6 +23,7 @@
         "raisin",
         "cerise",
     ];
+    console.log(fruits);
 
     // your code here
     document.getElementById("run").onclick = function arraychange(){
