@@ -25,5 +25,12 @@
     ];
 
     // your code here
+    document.getElementById("run").onclick = function arraychange(){
+        fruits.pop();
+        fruits.shift();
+        fruits.push("kiwi")
+        fruits.unshift("banana");
+        console.log(fruits);
+    }
 
 })();

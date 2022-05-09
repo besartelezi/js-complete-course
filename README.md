@@ -23,5 +23,13 @@ But I think the name of this assignment should be changed to something else, jus
 After doing the fizzbuzz assignment, I did learn a lot about loops and how handy the **% sign** is.
 
 ## Arrays ##
+### 01-get-element ###
+I thought the task was to show every fourth element from the array in the console log, so I wasted a lot of time trying to figure that out, while we only had to show the fourth element from the array.
+### 02-manipulate array ###
+By using the **pop, shift, push, and unshift** methods, I was able to do everything that was asked of me in this task.
+I learned there are different methods you can use to manipulate the array, but more importantly, if you want to actually have your array show up in your console, you need to add the variable name of your array to the console.log. <br />
+So it should look something like this. < br/>
+console.log(fruits);, the 'fruits' here being the name of your array.
+### ###
 ## Dom ##
 
