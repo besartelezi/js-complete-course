@@ -30,6 +30,11 @@ By using the **pop, shift, push, and unshift** methods, I was able to do everyth
 I learned there are different methods you can use to manipulate the array, but more importantly, if you want to actually have your array show up in your console, you need to add the variable name of your array to the console.log. <br />
 So it should look something like this. < br/>
 console.log(fruits);, the 'fruits' here being the name of your array.
-### ###
+### 03-walk-one ###
+Used the for loop method in this assignment, this link helped me a lot: https://stackoverflow.com/questions/54507913/how-to-use-a-for-loop-to-console-log-each-item-of-an-array <br />
+This link helped me understand loops a bit better: https://www.dofactory.com/javascript/loops#:~:text=JavaScript%20Loops%20are%20used%20to,is%20the%20same%20as%20looping. <br />
+##### A general tip for anyone reading this, when the assignment mentions that something has to happen, I always start the assignment by writing this piece of code: **document.getElementById("id-name-of-button").onclick = function NameFunction** #####
+##### Replace the name of "id-name-of-button" with the id of the button that you can find in the HTML, and NameFunction with the name you'd ike to give that function. Just choose something that describes what you want that function to do. #####
+
 ## Dom ##
 

@@ -25,7 +25,12 @@
         "grap",
         "cherry",
     ];
-
+    console.log();
     // your code here
 
+    document.getElementById("run").onclick = function loop(){
+        for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i])
+        }
+    }
 })();
