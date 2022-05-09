@@ -13,4 +13,7 @@
 
     // your code here
 
+    document.getElementById("run").onclick = function (){
+        const givenyear = document.getElementById("year");
+    }
 })();

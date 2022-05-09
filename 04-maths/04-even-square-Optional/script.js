@@ -14,7 +14,8 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
-
+        let num = Math.pow(1,21)
+        window.alert(num)
     });
 
 })();

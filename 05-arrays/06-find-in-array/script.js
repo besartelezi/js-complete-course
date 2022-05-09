@@ -92,6 +92,8 @@
     // your code here
     document.getElementById("run").onclick = function (){
         const jean = people.find(i => i.firstname === "Jean", i=> i.lastname === "Dupont");
-        console.log(jean)
+        console.log(jean.email)
+        index = people.findIndex(i => i.firstname ==="Jean");
+        console.log(index)
     }
 })();
