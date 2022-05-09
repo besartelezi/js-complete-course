@@ -4,6 +4,10 @@ Some of the Javascript assignments I have been doing on BeCode
 ## Base ##
 ## Colors ##
 ## Dates ##
+### 04-locale-date ###
+This was an assignment I spent a **LOT** of time on, but I finally managed to finish it. The links that helped me out a lot were: https://www.w3schools.com/jsref/jsref_getday.asp <br />
+and: https://codehandbook.org/javascript-date-format/ <br />
+I did not know that javascript could automatically assign the right days and months to the date, so I spent a lot of time on figuring out if I could solve it through the power of math and google.
 ## Maths ##
 ### 01-Calculator ###
 I struggled a bit with this exercise. The main issue I had was when I wanted javascript to do 5+5=10, it actually did 5+5=55 instead.
@@ -45,5 +49,6 @@ This however, is not the desired result. After some research (googling stuff wit
 The goal of this exercise is to teach us what an array oj objects is, you can find a good explanation on this here: https://www.freecodecamp.org/news/javascript-array-of-objects-tutorial-how-to-create-update-and-loop-through-objects-using-js-array-methods/ <br />
 Thanks to that, I was able to more specifically find the answer I was looking for, how to show only the first and last names of the people in the array on the console log. <br />
 A link that helped me out how the write the code was this one: https://stackoverflow.com/questions/19529403/how-can-i-loop-through-a-javascript-object-array <br />
+### 06-find-in-array ###
 ## Dom ##
 

@@ -15,6 +15,10 @@
 
     // your code here
 
-    const date = new Date(5);
-    document.getElementById("target").innerHTML = date;
+    const months = ["January", "February", "March","April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    const weekday = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday", "Sunday"];
+    let current_datetime = new Date()
+    let formatted_date = weekday[current_datetime.getDay()] + " " + current_datetime.getDate() + " " + months[current_datetime.getMonth()] + " " + current_datetime.getFullYear() + ", " + current_datetime.getHours() + "h" + current_datetime.getMinutes()
+    document.getElementById("target").innerHTML = formatted_date;
+
 })();
