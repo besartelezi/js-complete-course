@@ -90,5 +90,11 @@
     ];
 
     // your code here
-
+    //document.getElementById("run").onclick = function (){
+        //console.log(people.filter(i => i.age>18))
+    //}
+    document.getElementById("run").onclick = function () {
+       const adults = people.filter(i => i.age > 18)
+        console.log(adults)
+    }
 })();

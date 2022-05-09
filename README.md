@@ -54,4 +54,7 @@ I think this was my favourite assignment (for now) in this javascript course. It
 I learned that you can specify which parts of the objects in the array you'd like to use (in this example, by using 'MyVarName.email', I was able to specify to the console log that I wanted only the email to show up) <br />
 Next I used the findIndex method to show in the console log what the index was. This linked helped me realize what the findindex was and how it can be used: https://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition <br />
 ### 07-filter-array
+I looked up some information on filtering and this helped me out a lot: https://www.javascripttutorial.net/javascript-array-filter/#:~:text=JavaScript%20Array%20filter()%20method%20in%20detail&text=The%20filter()%20method%20creates,element%20to%20the%20callback%20function. <br />
+Thanks to what I learned from the previous assignment, this one went pretty smoothly. I only forgot to add a new variable that was just a filtered version of the people array, I just filtered the array itself in the console.log <br />
+I fixed this afterwards though. If you want to see how I did it first, I left the code there as a comment.
 ## Dom 
