@@ -27,5 +27,10 @@
     ];
 
     // your code here
-
+    document.getElementById("run").onclick = function buttonclick(){
+        fruits.forEach(fruitfunction);
+        function fruitfunction(item){
+            console.log(item)
+        }
+    }
 })();

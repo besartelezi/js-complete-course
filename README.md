@@ -35,6 +35,10 @@ Used the for loop method in this assignment, this link helped me a lot: https://
 This link helped me understand loops a bit better: https://www.dofactory.com/javascript/loops#:~:text=JavaScript%20Loops%20are%20used%20to,is%20the%20same%20as%20looping. <br />
 ##### A general tip for anyone reading this, when the assignment mentions that something has to happen, I always start the assignment by writing this piece of code: **document.getElementById("id-name-of-button").onclick = function NameFunction** #####
 ##### Replace the name of "id-name-of-button" with the id of the button that you can find in the HTML, and NameFunction with the name you'd ike to give that function. Just choose something that describes what you want that function to do. #####
-
+### 04-walk-two ###
+Using the ForEach method was a bit complicated, but this link explained it pretty good: https://www.programiz.com/javascript/forEach <br />
+I was adding the "fruits" variable name in between the brackets in both the console log and the second function I used. This resulted in the elements of the array not properly showing up in my console log. <br />
+I fixed this by using a seperate variable name in the variable log and the second function. 
+### 05-walk-three ###
 ## Dom ##
 
