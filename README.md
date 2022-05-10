@@ -64,4 +64,6 @@ What helped me the most with this assignment, was taking a step back, analyzing 
 I looked up at the W3schools website for more information on arrays, that way I was able to create a new array of objects called **let peopleage**, by extracting the properties in the previous array, *var people*, into my new array. <br />
 Once I did that, I created a new array containing only the age of the people in the previous array in a **new array**. </br>
 Then I created another variable *let sum* containing the reduce() function, and then I console.log-ged that variable.
+### 10-dedupe array
+Used the *Set* function to create a new array without any of the duplicates in the previous array.
 ## Dom 

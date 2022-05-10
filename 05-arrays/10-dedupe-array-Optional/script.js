@@ -29,4 +29,9 @@
     ];
 
     // your code here
+    document.getElementById("run").onclick = function () {
+        let nodoubles = [...new Set(fruits)];
+        console.log(nodoubles)
+    }
+
 })();
