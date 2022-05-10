@@ -66,4 +66,8 @@ Once I did that, I created a new array containing only the age of the people in 
 Then I created another variable *let sum* containing the reduce() function, and then I console.log-ged that variable.
 ### 10-dedupe array
 Used the *Set* function to create a new array without any of the duplicates in the previous array.
+### 11-rand-array-stats
+I started out by making it so that when you click on the button, an array of random numbers between 1 and 100 gets generated. I used the console log every step of the way to make sure I got the desired results. <br />
+Afterwards, I used the innerHTML function to change certain ID's on the website to the numbers in the randomized array. Then I used the  Math.min and Math.max functions to find the min and max of the array and present them accordingly on the website. <br />
+Using the reduce function, I presented the sum of all variables in the array on the website. To show the average, I used another reduce function, but this time I divided the sum of all variables with the length of the array to get the average. <br />
 ## Dom 
