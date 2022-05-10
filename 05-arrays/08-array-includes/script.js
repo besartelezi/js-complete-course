@@ -28,10 +28,12 @@
 
     // your code here
     document.getElementById("run").onclick = function () {
-    if (fruits === "apple"){
-        console.log("there is an apple in the array);
-
-    } else { console.log("there are no apples in the array")
-    }}
+        if (fruits.includes("apple", )){
+            console.log("There is an apple in the array fruits.")
+        }
+        else {
+            console.log("there are no apples in the array fruits.")
+        }
+    }
 
 })();

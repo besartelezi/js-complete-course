@@ -57,4 +57,7 @@ Next I used the findIndex method to show in the console log what the index was. 
 I looked up some information on filtering and this helped me out a lot: https://www.javascripttutorial.net/javascript-array-filter/#:~:text=JavaScript%20Array%20filter()%20method%20in%20detail&text=The%20filter()%20method%20creates,element%20to%20the%20callback%20function. <br />
 Thanks to what I learned from the previous assignment, this one went pretty smoothly. I only forgot to add a new variable that was just a filtered version of the people array, I just filtered the array itself in the console.log <br />
 I fixed this afterwards though. If you want to see how I did it first, I left the code there as a comment.
+### 08-array-includes
+Using the includes() method together with the if-else method, I quickly got the result I wanted. This link helped me out a lot: https://www.w3schools.com/jsref/jsref_includes_array.asp <br />
+### 09-reduce-array
 ## Dom 
