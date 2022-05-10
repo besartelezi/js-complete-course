@@ -12,6 +12,6 @@
 (function() {
 
     // your code here
-    const link = document.querySelector("#source");
-    console.log(link)
+    let imgsrc = document.getElementById("source").src;
+    console.log(imgsrc)
 })();
