@@ -12,8 +12,10 @@
 (function() {
 
     // your code here
+    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
     document.getElementById("run").onclick = function (){
-        const givenyear = document.getElementById("year");
+        const givenyear = document.getElementById("year").value;
+        console.log(givenyear)
     }
 })();

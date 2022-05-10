@@ -14,8 +14,13 @@
     document.getElementById("run").addEventListener("click", function() {
 
         // your code here
-        let num = Math.pow(1,21)
-        window.alert(num)
+        let num = [];
+        for (let i = 1; i <22; i++){
+            num.push(i);
+        }
+        let square = num.map(i => i*i);
+        let numsquare = square.filter(i => i<22);
+        window.alert(numsquare)
     });
 
 })();

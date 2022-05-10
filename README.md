@@ -25,6 +25,9 @@ I added the variables that would contain the input from the user **above** of th
 I unfortunately found the answer to this code almost immediately. I glossed over it, and I started to understand the logic behind it. <BR />
 But I think the name of this assignment should be changed to something else, just so that people won't find the answer immediately on the internet.<br />
 After doing the fizzbuzz assignment, I did learn a lot about loops and how handy the **% sign** is.
+### 04-even-square-Optional
+I started out by creating an array of numbers starting from 1 up to 21, then creating an array consisting of the squared numbers of the previous mentioned array. </br>
+Then I created yet another array, consisting of the array containing all the squared numbers, **BUT** with a filter on it so that it excludes any number above 21. This might not be the easiest way to do this assignment but it is *MY WAY*.
 
 ## Arrays 
 ### 01-get-element 
