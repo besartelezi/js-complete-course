@@ -76,3 +76,6 @@ Using the reduce function, I presented the sum of all variables in the array on 
 ## Dom 
 ### 01-select-one
 By using the document.getelementbyid and innerhtml functions this was resolved pretty quickly
+### 02-select-two
+queryselector is the replacement of getelementbyid in this case.
+### 03
