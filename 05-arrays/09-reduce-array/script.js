@@ -90,5 +90,11 @@
     ];
 
     // your code here
-
+    document.getElementById("run").onclick = function (){
+        let peopleage = people.map(a => a.age);
+        let sum = peopleage.reduce(function (a, b){
+            return a + b
+        },0)
+        console.log(sum)
+    }
 })();

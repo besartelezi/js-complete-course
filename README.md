@@ -60,4 +60,8 @@ I fixed this afterwards though. If you want to see how I did it first, I left th
 ### 08-array-includes
 Using the includes() method together with the if-else method, I quickly got the result I wanted. This link helped me out a lot: https://www.w3schools.com/jsref/jsref_includes_array.asp <br />
 ### 09-reduce-array
+What helped me the most with this assignment, was taking a step back, analyzing the problem, and looking up the correct terminology for everything so I could look way better for an answer. <br />
+I looked up at the W3schools website for more information on arrays, that way I was able to create a new array of objects called **let peopleage**, by extracting the properties in the previous array, *var people*, into my new array. <br />
+Once I did that, I created a new array containing only the age of the people in the previous array in a **new array**. </br>
+Then I created another variable *let sum* containing the reduce() function, and then I console.log-ged that variable.
 ## Dom 
