@@ -74,3 +74,5 @@ I started out by making it so that when you click on the button, an array of ran
 Afterwards, I used the innerHTML function to change certain ID's on the website to the numbers in the randomized array. Then I used the  Math.min and Math.max functions to find the min and max of the array and present them accordingly on the website. <br />
 Using the reduce function, I presented the sum of all variables in the array on the website. To show the average, I used another reduce function, but this time I divided the sum of all variables with the length of the array to get the average. <br />
 ## Dom 
+### 01-select-one
+By using the document.getelementbyid and innerhtml functions this was resolved pretty quickly
