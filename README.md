@@ -78,4 +78,6 @@ Using the reduce function, I presented the sum of all variables in the array on 
 By using the document.getelementbyid and innerhtml functions this was resolved pretty quickly
 ### 02-select-two
 queryselector is the replacement of getelementbyid in this case.
-### 03
+### 03-select-three
+I was unable to change the innerhtml selecting only the classes, I had to create a variable that contained all the classes, and then use a for loop to loop the action of changing the innerhtml of the chosen classes. <br />
+### 04-attr-create
