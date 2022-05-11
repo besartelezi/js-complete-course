@@ -12,5 +12,15 @@
 (function() {
 
     // your code here
-
+    document.getElementById("run").onclick = function () {
+        const pass1 = document.getElementById("pass-one").value;
+        const pass2 = document.getElementById("pass-two").value;
+        if (pass1 === pass2) {
+            window.alert("task failed succesfully")
+        }
+        else {
+            document.getElementById("pass-one").style.borderColor = "red";
+            document.getElementById("pass-two").style.borderColor = "red";
+        }
+    }
 })();
