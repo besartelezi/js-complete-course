@@ -85,3 +85,5 @@ I wasted a lot of time on this assignment trying to use the getdocumentbyid meth
 Once I was able to properly get the url of the img, I created a new image containing the url of the desired image. <br />
 Afterwards, I used the getelementbyid.appendchild to display the new img at the desired id. Lastly, I created a  variable containing the ID of the where the picture was originally in the HTML. Then I used an element.remove on that variable.
 ### 05-hover-image
+I found an easier way to get the URL's of desired images from the HTML. I used the addeventlistener mouseover and mouseout methods to change the pictures on hover.
+### 06-generate-table-one
