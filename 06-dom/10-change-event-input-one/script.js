@@ -12,5 +12,11 @@
 (function() {
 
     // your code here
+    const typebar = document.getElementById("pass-one").value;
+    const typebar2 = typebar.count(typebar);
+    document.getElementById("counter").innerHTML = typebar2.length + "/10";
+
+
+
 
 })();
