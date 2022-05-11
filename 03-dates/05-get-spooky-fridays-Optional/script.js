@@ -12,8 +12,10 @@
 (function() {
 
     // your code here
-    const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-
+    //Start from the task at hand, what the code has to do, not from the user input
+    //read on this link to get a clearer understanding on how to fix this issue: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay
+    //[0] = Sunday, so I have to check on every month where [5] = 13
+    //then figure a way to implement the user input to this
     document.getElementById("run").onclick = function (){
         const givenyear = document.getElementById("year").value;
         console.log(givenyear)

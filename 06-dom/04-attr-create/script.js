@@ -12,6 +12,13 @@
 (function() {
 
     // your code here
-    let imgsrc = document.getElementById("source").src;
-    console.log(imgsrc)
+    const link = document.querySelector("#source");
+    if (link) {
+        const target = link.getAttribute("data-image");
+        const newimg = new Image()
+        newimg.src = target;
+        document.getElementById("target").appendChild(newimg);
+        const delimg = document.getElementById("source");
+        delimg.remove()
+    }
 })();

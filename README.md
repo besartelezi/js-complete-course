@@ -81,3 +81,7 @@ queryselector is the replacement of getelementbyid in this case.
 ### 03-select-three
 I was unable to change the innerhtml selecting only the classes, I had to create a variable that contained all the classes, and then use a for loop to loop the action of changing the innerhtml of the chosen classes. <br />
 ### 04-attr-create
+I wasted a lot of time on this assignment trying to use the getdocumentbyid method, but what you have to use is the queryselector and getattribute. These methods are best suited to get the url of an image. <br />
+Once I was able to properly get the url of the img, I created a new image containing the url of the desired image. <br />
+Afterwards, I used the getelementbyid.appendchild to display the new img at the desired id. Lastly, I created a  variable containing the ID of the where the picture was originally in the HTML. Then I used an element.remove on that variable.
+### 05-hover-image
