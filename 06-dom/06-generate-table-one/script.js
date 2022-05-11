@@ -12,10 +12,14 @@
 (function() {
 
     // your code here
-
-
-
-
+    const random = "just some text"
+    console.log (random)
+    document.getElementById("target");
+    const table = document.createElement("table");
+    for (let i=0; i<11;i++){
+        table.insertRow().insertCell().innerHTML = random
+    }
+    target.appendChild(table);
 
 
 
