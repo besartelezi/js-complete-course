@@ -18,7 +18,7 @@
             console.log(main)
         }
     }
-    
+
     getheroesdata()
 
     //{

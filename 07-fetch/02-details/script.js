@@ -11,4 +11,23 @@
 
 (() => {
     // your code here
+    async function getheroes () {
+        const response = await fetch("../../_shared/api.json");
+        const data = await response.json();
+        // How to write the code console.log(data.heroes[0].id)
+        document.getElementById("run").onclick = function (){
+
+            const textbox = +document.getElementById("hero-id").value;
+
+            if (textbox === 1) {
+                console.log(data.heroes[0].name)
+            }
+            else {
+                window.alert ("yeet")
+            }
+        }
+    }
+
+    getheroes()
+
 })();
