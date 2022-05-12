@@ -12,11 +12,10 @@
 (function() {
 
     // your code here
-    const typebar = document.getElementById("pass-one").value;
-    const typebar2 = typebar.count(typebar);
-    document.getElementById("counter").innerHTML = typebar2.length + "/10";
-
-
-
-
+    document.getElementById("pass-one").addEventListener("input", function keyboard(){
+        let textbox = document.getElementById("pass-one");
+        let textboxlen = textbox.value.length;
+        document.getElementById("counter").innerHTML = textboxlen + "/10";
+        textbox.maxLength = "10";
+    })
 })();
