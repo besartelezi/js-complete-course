@@ -11,4 +11,26 @@
 
 (() => {
     // your code here
+    async function getheroesdata(){
+        let heroes = await fetch("../../_shared/api.json");
+        let main = await heroes.json();
+        document.getElementById("run").onclick = function () {
+            console.log(main)
+        }
+    }
+    
+    getheroesdata()
+
+    //{
+    //    let heroes = fetch(".../s-complete-course/_shared/api.json").then((response) => {
+    //        if (!response.ok){
+     //           throw new Error("Oopsie Woopsie, something went wrongsies uwu")
+     //       }
+     //       return response;
+     //   })
+     //       .then ((response => {
+     //       console.log(heroes)
+     //       }))
+    //}
+
 })();
