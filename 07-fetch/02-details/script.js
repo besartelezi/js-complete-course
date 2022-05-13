@@ -28,6 +28,8 @@
             const Templ = document.getElementById("tpl-hero").content;
             const CopyTempl = document.importNode(Templ, true);
 
+            //I could probably use a loop for this, but I currently not aware of how to get started with that
+
             if (textbox === 1) {
                 CopyTempl.querySelector(".name").textContent = data.heroes[0].name
                 CopyTempl.querySelector(".alter-ego").textContent = data.heroes[0].alterEgo
