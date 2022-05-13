@@ -11,22 +11,56 @@
 
 (() => {
     // your code here
+
+    //Adding a new div element copying the contents of the template, and appending it as the child of the id:target
+    const Output = document.createElement("div");
+    Output.setAttribute("id", "NewTemplate");
+    const Target = document.getElementById("target");
+    Target.appendChild(Output);
+
+    //Getting the API.json
     async function getheroes () {
         const response = await fetch("../../_shared/api.json");
         const data = await response.json();
-        // How to write the code console.log(data.heroes[0].id)
-        document.getElementById("run").onclick = function (){
 
+        document.getElementById("run").onclick = function (){
             const textbox = +document.getElementById("hero-id").value;
+            const Templ = document.getElementById("tpl-hero").content;
+            const CopyTempl = document.importNode(Templ, true);
 
             if (textbox === 1) {
-                console.log(data.heroes[0].name)
+                CopyTempl.querySelector(".name").textContent = data.heroes[0].name
+                CopyTempl.querySelector(".alter-ego").textContent = data.heroes[0].alterEgo
+                CopyTempl.querySelector(".powers").textContent = data.heroes[0].abilities
+                document.getElementById("NewTemplate").appendChild(CopyTempl)
             }
-            else {
-                window.alert ("yeet")
+            if (textbox === 2) {
+                CopyTempl.querySelector(".name").textContent = data.heroes[1].name
+                CopyTempl.querySelector(".alter-ego").textContent = data.heroes[1].alterEgo
+                CopyTempl.querySelector(".powers").textContent = data.heroes[1].abilities
+                document.getElementById("NewTemplate").appendChild(CopyTempl)
+            }
+            if (textbox === 3) {
+                CopyTempl.querySelector(".name").textContent = data.heroes[2].name
+                CopyTempl.querySelector(".alter-ego").textContent = data.heroes[2].alterEgo
+                CopyTempl.querySelector(".powers").textContent = data.heroes[2].abilities
+                document.getElementById("NewTemplate").appendChild(CopyTempl)
+            }
+            if (textbox === 4) {
+                CopyTempl.querySelector(".name").textContent = data.heroes[3].name
+                CopyTempl.querySelector(".alter-ego").textContent = data.heroes[3].alterEgo
+                CopyTempl.querySelector(".powers").textContent = data.heroes[3].abilities
+                document.getElementById("NewTemplate").appendChild(CopyTempl)
+            }
+            if (textbox === 5) {
+                CopyTempl.querySelector(".name").textContent = data.heroes[4].name
+                CopyTempl.querySelector(".alter-ego").textContent = data.heroes[4].alterEgo
+                CopyTempl.querySelector(".powers").textContent = data.heroes[4].abilities
+                document.getElementById("NewTemplate").appendChild(CopyTempl)
             }
         }
     }
+
 
     getheroes()
 
